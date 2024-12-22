@@ -1,0 +1,266 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.div {
+    position: relative;
+    left: 300px;
+    top: 50px;
+    border: 1px solid (circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    width: 750px;
+    height: 500px;
+    border-radius: 25px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.container {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    border: 1px;
+    border-style:solid (circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-color: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 25px;
+    width: 400px;
+    height: 500px;
+}
+
+.titulo {
+   text-align: center;
+   position: relative;
+   color: hsl(224, 30%, 27%);
+   top: 40px;
+}
+
+.circulo {
+    background-color: #0093E9; 
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    text-align: center;
+    border: 1px;
+    border-radius: 100%;
+    max-width: 30%;
+    margin: auto;
+    inline-size: 1000px;
+    position: relative;
+    top: 60px;
+    padding: 30px;
+    background-color: hsl(234, 85%, 45%);
+}
+
+.titulo-item {
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+}
+
+.p {
+    text-align: center;
+    position: relative;
+    top: -15px;
+    color: hsl(224, 30%, 27%);
+}
+
+.h2 {
+    position: relative;
+    top: 80px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.p-item {
+    position: relative;
+    text-align: center;
+    color: hsl(224, 30%, 27%);
+    top: 90px;
+}
+
+.h3 {
+    position: absolute;
+    left: 450px;
+    top: 15px;
+}
+
+.button-1 {
+    background-color: hsl(241, 100%, 89%);
+    position: absolute;
+    left: 450px;
+    top: 90px;
+    padding: 5px 80px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    transition-property: background-color;
+    
+}
+
+.button-1:hover {
+    transition-duration: 2s;
+    background-color: hsl(224, 92%, 85%);
+    color: hsl(39, 100%, 56%);
+}
+
+.button-p {
+    position: relative;
+    left: -60px;
+    color: hsl(0, 100%, 67%);
+    transition-property: color;
+}
+
+.button-p:hover {
+    transition-duration: 3s;
+    color: hsl(234, 85%, 45%);
+}
+
+.item {
+    position: relative;
+    top: 1.5px;
+    left: 65px;
+    color: hsl(224, 30%, 27%);
+}
+
+.button-2 {
+    background-color: hsl(241, 100%, 89%);
+    position: absolute;
+    left: 450px;
+    top: 160px;
+    padding: 5px 81.5px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    transition-property: background-color;
+}
+
+.button-2:hover {
+    transition-duration: 3s;
+    background-color: hsl(224, 92%, 85%);
+}
+
+.button-p-2{
+    position: relative;
+    left: -60px;
+    color: hsl(39, 100%, 56%);
+    transition-property: color;
+}
+
+.button-p-2:hover {
+    transition-duration: 3s;
+    color: hsl(0, 100%, 67%);
+}
+
+.item-2 {
+    position: relative;
+    top: 1.5px;
+    left: 65px;
+    color: hsl(224, 30%, 27%);
+}
+
+.button-3 {
+    background-color: hsl(241, 100%, 89%);
+    position: absolute;
+    left: 450px;
+    top: 230px;
+    padding: 5px 86px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    transition-property: background-color;
+}
+
+.button-3:hover {
+    transition-duration: 3s;
+    background-color: hsl(224, 92%, 85%);
+}
+
+.button-p-3{
+    position: relative;
+    left: -60px;
+    color: hsl(166, 100%, 37%);
+}
+
+.button-p-3:hover {
+    transition-duration: 3s;
+    color: hsl(39, 100%, 56%);
+}
+
+.item-3 {
+    position: relative;
+    top: 1.5px;
+    left: 65px;
+    color: hsl(224, 30%, 27%);
+}
+
+.button-4 {
+    background-color: hsl(224, 92%, 85%);
+    position: absolute;
+    left: 450px;
+    top: 300px;
+    padding: 5px 86.9px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    transition-property: background-color;
+}
+
+.button-4:hover {
+    transition-duration: 3s;
+    background-color: hsl(241, 100%, 89%);
+} 
+
+.button-p-4{
+    position: relative;
+    left: -60px;
+    color: hsl(234, 85%, 45%);
+    transition-property: color;
+}
+
+.button-p-4:hover {
+    transition-duration: 3s;
+    color: hsl(166, 100%, 37%);
+}
+
+.item-4 {
+    position: relative;
+    top: 1.5px;
+    left: 65px;
+    color: hsl(224, 30%, 27%);
+}
+
+.button-5 {
+    position: absolute;
+    left: 450px;
+    top: 400px;
+    padding: 5px 97px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    background-color: hsl(224, 30%, 27%);
+    transition-property: background-color;
+}
+
+.button-5:hover {
+    transition-duration: 3s;
+    background-color: #cfcfcf;
+}
+
+.button-p-5{
+   text-align: center;
+   position: relative;
+   color: hsl(0, 0%, 100%);
+   font-size: 20px;
+   transition-property: color;
+}
+
+.button-p-5:hover {
+    transition-duration: 3s;
+    color: #0009;
+}
+
+button {
+    border-radius: 15px;
+    border-style: none;
+}
+
+.item-e {
+    position: relative;
+    top: 50px;
+    left: -50px;
+    text-align: right;
+    font-style: italic;
+    text-decoration: line-through;
+    font-family: cursive;
+}
